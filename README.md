@@ -33,6 +33,12 @@ Input:
 Output:
 2.0
 
+## Documentation
+The AverageCalculator class includes the following methods:
+
+printInvalidNumbers(int[] nums): Prints information about invalid numbers in the input array.
+avg(int[] nums) throws EmptyArray: Calculates the average of non-negative numbers in the input array.
+For detailed documentation of each method, refer to the source code.
 
 ## Usage
 
@@ -59,10 +65,3 @@ if (!hasInvalidNumbers) {
 } else {
     System.out.println("No average can be calculated due to invalid inputs.");
 }
-
-## Documentation
-The AverageCalculator class includes the following methods:
-
-printInvalidNumbers(int[] nums): Prints information about invalid numbers in the input array.
-avg(int[] nums) throws EmptyArray: Calculates the average of non-negative numbers in the input array.
-For detailed documentation of each method, refer to the source code.
